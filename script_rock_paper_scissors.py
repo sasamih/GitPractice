@@ -9,8 +9,7 @@ computer = t[randint(0,2)]
 #set player to False
 player = False
 
-while player == False:
-#set player to True
+while True:
     player = input("Rock, Paper, Scissors?")
     if player == computer:
         print("Tie!")
@@ -32,6 +31,18 @@ while player == False:
     else:
         print("That's not a valid play. Check your spelling!")
     
-    #player was set to True, but we want it to be False so the loop continues
-    player = False
     computer = t[randint(0,2)]
+
+    while(True):
+        play_again = input("Yes, No?")
+        if play_again == "Yes":
+            player = False
+            break
+        elif play_again == "No":
+            player = True
+            break
+        else:
+            print("That's not a valid play. Check your spelling!")
+
+    if player == True:
+        break
