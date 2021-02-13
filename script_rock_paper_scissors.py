@@ -35,7 +35,7 @@ while True:
     computer = t[randint(0,2)]
 
     while(True):
-        play_again = input("Yes, No?")
+        play_again = input("Yes, No")
         if play_again == "Yes":
             player = False
             break
