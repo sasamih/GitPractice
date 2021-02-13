@@ -10,7 +10,7 @@ computer = t[randint(0,2)]
 player = False
 
 while True:
-    player = input("Kamen, Papir, Makaze?")
+    player = input("Kame*n, Papir, Makaze?")
 
     if player == computer:
         print("Tie!")
