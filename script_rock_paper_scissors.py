@@ -21,7 +21,7 @@ while True:
             print("You win!", player, "smashes", computer)
     elif player == "Papir":
         if computer == "Makaze":
-            print("You lose!", computer, "cut", player)
+            print("You lose", computer, "cut", player)
         else:
             print("You win!", player, "covers", computer)
     elif player == "Makaze":
