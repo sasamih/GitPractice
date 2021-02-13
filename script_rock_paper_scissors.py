@@ -1,6 +1,6 @@
 from random import randint
 
-#create a list of play options
+#create a list of play optionsS
 t = ["Rock", "Papir", "Makaze"]
 
 #assign a random play to the computer
