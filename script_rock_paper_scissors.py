@@ -43,7 +43,7 @@ while True:
             player = True
             break
         else:
-            print("That's not a valid. Check your spelling")
+            print("'s not a valid Check your spelling")
 
     if player == True:
         break
