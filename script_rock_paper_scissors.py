@@ -1,12 +1,12 @@
 from random import randint
 
 #create a list of play options
-t = ["Kamen", "Papir", "Makaze"]
+t = ["", "Papir", "Makaze"]
 
 #assign a random play to the computer
 computer = t[randint(0,2)]
 
-#set player to 
+#set player to False
 player = False
 
 while True:
