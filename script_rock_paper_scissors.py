@@ -1,7 +1,7 @@
 from random import randint
 
 #create a list of play options
-t = ["Kamen", "Papir", "Makaze"]
+t = ["", "Papir", "Makaze"]
 
 #assign a random play to the computer
 computer = t[randint(0,2)]
@@ -21,7 +21,7 @@ while True:
             print("You win!", player, "smashes", computer)
     elif player == "Papir":
         if computer == "Makaze":
-            print("You lose!", computer, "cut", player)
+            print("You lose", computer, "cut", player)
         else:
             print("You win!", player, "covers", computer)
     elif player == "Makaze":
@@ -35,7 +35,7 @@ while True:
     computer = t[randint(0,2)]
 
     while(True):
-        play_again = input("Yes, No?")
+        play_again = input("Yes, No")
         if play_again == "Yes":
             player = False
             break
@@ -43,7 +43,7 @@ while True:
             player = True
             break
         else:
-            print("That's not a valid play. Check your spelling!")
+            print("That's not a valid Check your spelling")
 
     if player == True:
         break

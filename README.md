@@ -1,3 +1,3 @@
-# GitPractice and
+# GitPractice
 
-Adding some text
+Comment needed for git practice
