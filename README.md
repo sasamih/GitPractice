@@ -1,3 +1,3 @@
 # GitPractice
 
-Comment  for git practice and creating conflict
+Comment  for git  and creating conflict
