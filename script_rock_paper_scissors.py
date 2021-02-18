@@ -1,6 +1,6 @@
 from random import randint
 
-#create a list of play
+#create a  of play
 t = ["", "Papir", "Makaze"]
 
 #assign a random play to the 
